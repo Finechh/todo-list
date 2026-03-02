@@ -1,0 +1,45 @@
+{
+  "gopls": {
+    "usePlaceholders": true,
+    "completeUnimported": true,
+    "staticcheck": true,
+    "directoryFilters": [
+      "-**/bin",
+      "-**/build",
+      "-**/dist",
+      "-**/tmp",
+      "-**/logs",
+      "-**/vendor"
+    ],
+    "codelenses": {
+      "generate": false,
+      "tidy": false,
+      "upgrade": false
+    },
+    "analyses": {
+      "unreachable": false,
+      "nilness": false,
+      "unusedparams": false,
+      "unusedwrite": false,
+      "shadow": false
+    },
+    "matcher": "case-insensitive",
+    "hoverKind": "NoDocumentation"
+  },
+  "files.watcherExclude": {
+    "**/bin": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/logs": true
+  },
+  "search.exclude": {
+    "**/bin": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/logs": true
+  },
+  "editor.formatOnSaveMode": "modifications",
+  "go.useLanguageServer": true
+}
